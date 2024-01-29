@@ -1,0 +1,132 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.app-logo {
+  align-self: flex-start;
+  height: 40px;
+  margin-left: 105px;
+}
+
+.top-container {
+  background-color: #5763a5;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin-top: 25px;
+  padding: 20px;
+}
+
+.form-container {
+  background-color: #454f84;
+
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.password-manager {
+  width: 45%;
+  height: 300px;
+}
+.head {
+  align-self: flex-start;
+  font-size: 20px;
+}
+.input-ele-cont {
+  background-color: white;
+  margin: 10px;
+
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.input-logo {
+  height: 20px;
+}
+.form-input-ele {
+  border: none;
+  outline: none;
+  height: 20px;
+  width: 350px;
+  font-size: 15px;
+  font-weight: bold;
+}
+hr {
+  height: 20px;
+  width: 3px;
+  background-color: #454f84;
+}
+.add-button {
+  background-color: #0b69ff;
+  width: 60px;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  align-self: flex-end;
+}
+
+.bottom-container {
+  background-color: #5763a5;
+  margin-top: 15px;
+  width: 70%;
+  padding: 10px;
+}
+.search-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.search-element {
+  width: 200px;
+  border: none;
+  outline: none;
+}
+
+.search-logo {
+  height: 20px;
+}
+.hr-line {
+  width: 100%;
+  height: 2px;
+}
+
+.checkbox {
+  text-align: right;
+  font-size: 30px;
+}
+.label {
+  text-align: center;
+  color: white;
+}
+.noPassword-image-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-passwords-image {
+  height: 250px;
+}
+
+.unordered-list-cont {
+  display: flex;
+}

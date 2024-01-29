@@ -1,0 +1,40 @@
+.list-item {
+  list-style-type: none;
+  color: white;
+  border: #c3caea 2px solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.initial {
+  background-color: #14b8a6;
+  height: 45px;
+  width: 45px;
+  border-radius: 30px;
+  padding-left: 16px;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+.para {
+  padding-top: 0px;
+  margin-top: 0px;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+.stared-password {
+  height: 12px;
+}
+.delete-button {
+  border: none;
+  background-color: transparent;
+  margin-left: 20px;
+}
+
+.delete-logo {
+  height: 35px;
+}
